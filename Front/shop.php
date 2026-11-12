@@ -1,7 +1,7 @@
 <?php 
 $titulo = "URBAN STYLE - Shop";
 include 'header.php'; 
-// Ya no necesitamos incluir conexion.php aquí porque la ropa es estática
+
 ?>
 
 <div class="shop-container">
@@ -57,10 +57,10 @@ include 'header.php';
         <!-- Cuadrícula de ropa ESTÁTICA -->
         <div class="grid-shop">
             
-            <!-- Producto 1: Polera SK -->
+            <!-- Producto 1: Poleron URBAN -->
             <div class="tarjeta-producto">
                 <div class="imagen-caja">
-                    <img src="img/polera-sk.jpg" alt="Poleron Urban">
+                    <img src="img/big-logo.jpg" alt="Poleron Urban">
                 </div>
                 <div class="info-producto">
                     <span class="nombre-prenda">Poleron Urban</span>
@@ -94,10 +94,10 @@ include 'header.php';
                 </div>
             </div>
 
-            <!-- Producto 4: Polera Big Logo -->
+            <!-- Producto 4: Polera Basica -->
             <div class="tarjeta-producto">
                 <div class="imagen-caja">
-                    <img src="img/big-logo.jpg" alt="Polera Básica">
+                    <img src="img/polera-sk.jpg" alt="Polera Básica">
                 </div>
                 <div class="info-producto">
                     <span class="nombre-prenda">Polera Básica</span>

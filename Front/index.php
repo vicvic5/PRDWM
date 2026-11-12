@@ -13,13 +13,13 @@ include 'header.php';
 
 <section class="grid-productos">
 
-    <!-- Producto 1: Polera SK -->
+    <!-- Producto 1: Poleron URBAN -->
     <div class="tarjeta-producto">
         <div class="imagen-caja">
-            <img src="img/polera-sk.jpg" alt="Poleron Urban">
+            <img src="img/big-logo.jpg" alt="Poleron URBAN">
         </div>
         <div class="info-producto">
-            <span class="nombre-prenda">Poleron Urban</span>
+            <span class="nombre-prenda">Poleron URBAN</span>
             <span class="precio-prenda">$21.990</span>
         </div>
     </div>
@@ -50,10 +50,10 @@ include 'header.php';
         </div>
     </div>
 
-    <!-- Producto 4: Polera Big Logo -->
+    <!-- Producto 4: Polera Basica -->
     <div class="tarjeta-producto">
         <div class="imagen-caja">
-            <img src="img/big-logo.jpg" alt="Polera Básica">
+            <img src="img/polera-sk.jpg" alt="Polera Básica">
         </div>
         <div class="info-producto">
             <span class="nombre-prenda">Polera Básica</span>
@@ -64,5 +64,4 @@ include 'header.php';
 </section>
 
 <!-- ================= FOOTER ================= -->
-<!-- ¡Esta es la línea clave que hace que funcionen los botones y las animaciones! -->
 <?php include 'footer.php'; ?>

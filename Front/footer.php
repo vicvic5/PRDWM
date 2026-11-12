@@ -43,7 +43,7 @@
         </div>
     </div>
 
-    <!-- ================= MODAL BÚSQUEDA ================= -->
+   <!-- ================= MODAL BÚSQUEDA ================= -->
     <div class="modal-overlay" id="modalBusqueda">
         <div class="modal-search-content">
             <span class="cerrar-modal" id="cerrarBusquedaBtn">&times;</span>
@@ -51,23 +51,21 @@
             <!-- Barra de entrada de texto -->
             <div class="search-bar-container">
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" id="inputBusqueda" placeholder="Buscar...">
+                <input type="text" id="inputBusqueda" placeholder="Buscar por polerón, polera, pantalón, bolso..." autocomplete="off">
             </div>
 
-           <!-- Sección: Visto recientemente -->
+            <!-- Sección dinámica de productos -->
             <div class="search-section">
                 <div class="search-section-header">
-                    <h4>Visto recientemente</h4>
-                    <button class="btn-borrar">Borrar</button>
+                    <h4 id="tituloBusqueda">Productos sugeridos</h4>
                 </div>
-                <div class="search-results-flex">
-                    <div class="mini-tarjeta">
-                        <img src="img/polera-sk.jpg" class="mini-imagen" style="object-fit: cover;" alt="Polera SK">
-                        <span class="mini-nombre">Heavyweight Hoodie Star</span>
-                        <span class="mini-precio">$64.990</span>
-                    </div>
+                <div class="search-results-flex" id="contenedorResultadosBusqueda">
+                    <!-- Se rellena automáticamente con app.js -->
                 </div>
             </div>
+
+        </div>
+    </div>
 
             <!-- Sección: Productos sugeridos -->
             <div class="search-section">
@@ -96,7 +94,7 @@
         </div>
     </div>
 
-    <!-- Aquí conectamos el JS para las animaciones y modales -->
-    <script src="app.js"></script>
+   <!-- Aquí conectamos el JS sin caché para que siempre cargue al instante -->
+    <script src="app.js?v=<?php echo time(); ?>"></script>
 </body>
 </html>

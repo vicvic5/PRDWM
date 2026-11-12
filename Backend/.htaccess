@@ -1,0 +1,2 @@
+# Bloquea todo el acceso web directo desde Apache
+Require all denied
